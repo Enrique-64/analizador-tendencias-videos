@@ -16,18 +16,18 @@ Este proyecto aplica técnicas de Machine Learning con Python para analizar tend
 
 ## Estructura del repositorio
 
-.
-├── config/ # Configuración e hiperparámetros
-├── data/
-│ ├── raw/ # Datos originales sin procesar
-│ └── processed/ # Datos ya transformados
-├── models/ # Código para cada modelo de ML
-├── notebooks/ # Análisis exploratorio y modelado en Jupyter Lab
-├── utils/ # Funciones auxiliares reutilizables
-├── inferencie_model.py # Realiza inferencias con modelos entrenados
-├── preprocess_data.py # Preprocesa los datos brutos
-├── train_models.py # Entrena los modelos definidos
-└── README.md # Descripción del proyecto
+.  
+├── config/ # Configuración e hiperparámetros  
+├── data/  
+│ ├── raw/ # Datos originales sin procesar  
+│ └── processed/ # Datos ya transformados  
+├── models/ # Código para cada modelo de ML  
+├── notebooks/ # Análisis exploratorio y modelado en Jupyter Lab  
+├── utils/ # Funciones auxiliares reutilizables  
+├── inferencie_model.py # Realiza inferencias con modelos entrenados  
+├── preprocess_data.py # Preprocesa los datos brutos  
+├── train_models.py # Entrena los modelos definidos  
+└── README.md # Descripción del proyecto  
 
 
 ## Requisitos
