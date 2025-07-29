@@ -1,0 +1,44 @@
+# Entornos virtuales
+venv/
+.env/
+env/
+.venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+
+# Archivos de configuración locales
+*.env
+.env.*
+
+# Archivos de configuración de Jupyter
+.jupyter/
+
+# Archivos de configuración de VSCode o IDEs
+.vscode/
+.idea/
+
+# Datasets o salidas grandes
+data/processed/*.csv
+data/raw/*.*
+
+# Archivos de ayuda al desarrollo
+notebooks/_En-Desarrollo
+resources/*.*
+Enunciado
+notas.txt
+Patron_diseño
+pruebas.py
