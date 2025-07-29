@@ -32,7 +32,7 @@ Thumbs.db
 .idea/
 
 # Datasets o salidas grandes
-data/processed/*.csv
+data/processed/*.*
 data/raw/*.*
 
 # Archivos de ayuda al desarrollo
