@@ -14,20 +14,22 @@ Este proyecto aplica técnicas de Machine Learning con Python para analizar tend
 6. Agrupar vídeos con técnicas de clustering.
 7. Recomendar vídeos basados en sus características.
 
+Para cada uno de los objetivos, se realiza un análisis exploratorio de los datos seguido de la evaluación de distintas técnicas y modelos de Machine Learning. Se seleccionan aquellos que ofrecen el mejor rendimiento y se implementa un script de Python específico para cada modelo elegido.
+
 ## Estructura del repositorio
 
 .  
-├── config/ # Configuración e hiperparámetros  
-├── data/  
-│ ├── raw/ # Datos originales sin procesar  
-│ └── processed/ # Datos ya transformados  
-├── models/ # Código para cada modelo de ML  
-├── notebooks/ # Análisis exploratorio y modelado en Jupyter Lab  
-├── utils/ # Funciones auxiliares reutilizables  
-├── inferencie_model.py # Realiza inferencias con modelos entrenados  
-├── preprocess_data.py # Preprocesa los datos brutos  
-├── train_models.py # Entrena los modelos definidos  
-└── README.md # Descripción del proyecto  
+├── config/ # Configuración e hiperparámetros
+├── data/
+│ ├── raw/ # Datos originales sin procesar
+│ └── processed/ # Datos ya transformados
+├── models/ # Código para cada modelo de ML
+├── notebooks/ # Análisis exploratorio y modelado en Jupyter Lab
+├── utils/ # Funciones auxiliares reutilizables
+├── inferencie_model.py # Realiza inferencias con modelos entrenados
+├── preprocess_data.py # Preprocesa los datos originales
+├── train_models.py # Entrena los modelos definidos
+└── README.md # Descripción del proyecto
 
 
 ## Requisitos
