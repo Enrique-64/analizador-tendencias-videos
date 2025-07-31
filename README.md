@@ -19,16 +19,16 @@ Para cada uno de los objetivos, se realiza un análisis exploratorio de los dato
 ## Estructura del repositorio
 
 .  
-├── config/ # Configuración e hiperparámetros
-├── data/
-│ ├── raw/ # Datos originales sin procesar
-│ └── processed/ # Datos ya transformados
-├── models/ # Código para cada modelo de ML
-├── notebooks/ # Análisis exploratorio y modelado en Jupyter Lab
-├── utils/ # Funciones auxiliares reutilizables
-├── inferencie_model.py # Realiza inferencias con modelos entrenados
-├── preprocess_data.py # Preprocesa los datos originales
-├── train_models.py # Entrena los modelos definidos
+├── config/ # Configuración e hiperparámetros  
+├── data/  
+│ ├── raw/ # Datos originales sin procesar  
+│ └── processed/ # Datos ya transformados  
+├── models/ # Código para cada modelo de ML  
+├── notebooks/ # Análisis exploratorio y modelado en Jupyter Lab  
+├── utils/ # Funciones auxiliares reutilizables  
+├── inferencie_model.py # Realiza inferencias con modelos entrenados  
+├── preprocess_data.py # Preprocesa los datos originales  
+├── train_models.py # Entrena los modelos definidos  
 └── README.md # Descripción del proyecto
 
 
@@ -41,6 +41,12 @@ Para cada uno de los objetivos, se realiza un análisis exploratorio de los dato
 - matplotlib
 - seaborn
 - jupyterlab
+- imbalanced-learn
+- nltk
+- plotly
+- scipy
+- wordcloud
+
 
 Instala los requisitos con:
 
